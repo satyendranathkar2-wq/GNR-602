@@ -126,7 +126,7 @@ The model was trained on the [Satellite Dataset]((https://www.kaggle.com/dataset
 ---
 
 ## 👤 Author
-**Kajal Kumari** |
-**Neeraj Datar** |
-**satyendranath kar**| 
+**Kajal Kumari |** 
+**Neeraj Datar |** 
+**satyendranath kar |**
 IIT Bombay — GNR-602 Course Project
