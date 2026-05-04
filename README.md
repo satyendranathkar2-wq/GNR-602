@@ -6,7 +6,7 @@ A pixel-level semantic segmentation system for satellite imagery, built from scr
 
 ## 📌 Project Overview
 
-This project segments high-resolution satellite images into 6 land-cover classes:
+This project segments high-resolution satellite images into 7 land-cover classes:
 
 | Label | Class | Color |
 |-------|-------|-------|
@@ -16,6 +16,7 @@ This project segments high-resolution satellite images into 6 land-cover classes
 | 3 | Vegetation | `rgb(254, 221, 58)` |
 | 4 | Water | `rgb(226, 169, 41)` |
 | 5 | Unlabeled | `rgb(155, 155, 155)` |
+| 6 | Object 000 | `rgb(0, 0, 0)`       |
 
 Each pixel in a satellite image is classified independently using its RGB value as input features — no convolutions, no pretrained encoders.
 
@@ -60,7 +61,7 @@ Models are MLPs built entirely from scratch (no `nn.Module`):
 ### 3. Training Details
 | Hyperparameter | Value |
 |---|---|
-| Image size | 256 × 256 |
+| Image size | resize image from 658 x 682 to 256 x 256  |
 | Epochs | 15 |
 | Learning rate | 0.0015 |
 | LR decay | 0.90 per epoch |
