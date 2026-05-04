@@ -16,7 +16,7 @@ This project segments high-resolution satellite images into 7 land-cover classes
 | 3 | Vegetation | `rgb(254, 221, 58)` |
 | 4 | Water | `rgb(226, 169, 41)` |
 | 5 | Unlabeled | `rgb(155, 155, 155)` |
-| 6 | Object 000 | `rgb(0, 0, 0)`       |
+| 6 | Object | `rgb(0, 0, 0)`       |
 
 Each pixel in a satellite image is classified independently using its RGB value as input features — no convolutions, no pretrained encoders.
 
