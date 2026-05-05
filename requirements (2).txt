@@ -1,0 +1,5 @@
+streamlit==1.44.1
+numpy==2.4.4
+torch==2.6.0
+pillow==12.1.1
+matplotlib==3.10.8
